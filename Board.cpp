@@ -7,8 +7,8 @@ using namespace ariel;
 
 namespace ariel
 {
-    void Board::post(int row, int column, Direction, string message) {}
-    string Board::read(int row, int column, Direction, int length)
+    void Board::post(int row, int column, Direction dir, const string &message) {}
+    string Board::read(int row, int column, Direction dir, int length)
     {
         return "Hello";
     }
